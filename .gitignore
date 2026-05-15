@@ -13,7 +13,6 @@ node_modules
 # Build folders
 dist
 dist-ssr
-assets
 
 # Environment files
 .env
