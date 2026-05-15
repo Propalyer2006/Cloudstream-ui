@@ -5,7 +5,7 @@ import SearchFeed from "./components/SearchFeed";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Cloudstream-ui/">
             <div className="min-h-screen bg-black text-white">
                 <Navbar />
                 <Routes>
