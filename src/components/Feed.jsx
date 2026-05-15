@@ -18,7 +18,8 @@ export default function Feed() {
                 const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
 
                 if (!apiKey) {
-                    throw new Error("YouTube API Key is missing.");
+                    console.error("YouTube API Key is missing.");
+                    return;
                 }
 
                 let url = "";
